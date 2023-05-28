@@ -1,0 +1,85 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.app{
+ background: radial-gradient(circle at center, #8e44ad, #2980b9);
+}
+.app.warm{
+ background: radial-gradient(circle at center, #ffac81, #ff7f78); 
+}
+main{
+  min-height: 100vh;
+ 
+  padding: 25px;
+}
+.search-box{
+  width: 100%;
+  margin: 0 0 75px;
+}
+.search-box .search-bar{
+  display:block;
+  width:50%;
+  padding:15px;
+  appearance: none;
+  background: none;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px 0px 16px 16px;
+  margin-top:-25px;
+  margin-left: 25%;
+  font-size: 20px;
+  transition: 0.4s ease;
+}
+.search-box .search-bar:focus{
+  background-color: rgba(255,255,255,0.75);
+}
+
+.location-box .location {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+ }
+
+.location-box .date {
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 50px 100px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #010101;
+  font-size: 102px;
+  font-weight: 900;
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.weather-box .weather {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+
+}
